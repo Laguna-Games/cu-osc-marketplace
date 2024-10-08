@@ -1,0 +1,48 @@
+{
+    "projectName": "cu-marketplace",
+    "buildDirectory": "build",
+    "abiOutputDirectory": "abis",
+    "recursiveMode": true,
+    "abiConfigurations": [
+        {
+            "configuration": "public",
+            "sortedJSON": true,
+            "searchRecursively": true,
+            "contractsToInclude": [],
+            "contractsToIgnore": [
+                "DiamondCutFacet",
+                "DiamondLoupeFacet",
+                "IDiamondLoupe",
+                "DiamondProxyFacet",
+                "DiamondOwnerFacet",
+                "ERC173",
+                "SupportsInterfaceFacet"
+            ],
+            "eventsToIgnore": [],
+            "functionsToIgnore": [
+                "transferOwnership",
+                "owner",
+                "supportsInterface"
+            ],
+            "selectorsToIgnore": [],
+            "eventsPrecedence": {
+                "OwnershipTransferred": "LibDiamond",
+                "DiamondCut": "LibDiamond"
+            }
+        },
+        {
+            "configuration": "lgInternal",
+            "sortedJSON": true,
+            "searchRecursively": true,
+            "contractsToInclude": [],
+            "contractsToIgnore": [],
+            "eventsToIgnore": [],
+            "functionsToIgnore": [],
+            "selectorsToIgnore": [],
+            "eventsPrecedence": {
+                "OwnershipTransferred": "LibDiamond",
+                "DiamondCut": "LibDiamond"
+            }
+        }
+    ]
+}

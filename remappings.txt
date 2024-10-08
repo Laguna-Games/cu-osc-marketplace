@@ -1,0 +1,6 @@
+ds-test/=lib/forge-std/lib/ds-test/src/
+forge-std/=lib/forge-std/src/
+@lg-diamond-template=lib/lg-diamond-template/
+@cu-common=lib/@lagunagames/cu-common/
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+@solidstate-contracts/=lib/solidstate-solidity/contracts
